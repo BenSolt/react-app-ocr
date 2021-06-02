@@ -1,6 +1,5 @@
-// server/index.js
-
 const fs = require('fs');
+const multer = require('multer')
 const express = require("express");
 const Tesseract = require('tesseract.js')
 
@@ -20,7 +19,6 @@ app.get("/uploads/:id", (req, res) => {
     console.log(__dirname)
       res.send( fs.readFileSync(`${__dirname}\\uploads\\${req.params.id}`));
     });
-  
   
   
     const fileUpload = require('express-fileupload');
