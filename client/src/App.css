@@ -36,3 +36,97 @@
     transform: rotate(360deg);
   }
 }
+
+/* ///////////////////////////////////////////// */
+
+.FileUploadPage{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.SectionTop{
+  width: 500px;
+  /* border: 2px solid blue; */
+}
+
+
+/* HOLDS IMAGE AND CONVERTED IMAGE */
+.SectionBottom{
+  display: flex;
+  justify-content: center;
+}
+
+.SectionA{
+  width: 40%;
+  /* border: 2px solid red; */
+}
+
+
+.SectionB{
+  width: 40%;
+  /* border: 2px solid green; */
+}
+
+
+/* IMAGE */
+.ImageSize{
+  width: 80%;
+}
+
+.ImageSize2{
+  height: 400px;
+}
+
+/* CONVERTED IMAGE */
+.ConvertedImage{
+  width: 100%;
+}
+
+.fileUploadFiles{
+  /* border: 2px solid black; */
+  width: 620px;
+  display: flex;
+}
+
+.card{
+  background: rgb(184, 184, 184);
+}
+
+.btn {
+  color: black;
+  /* background: rgb(0, 89, 172); */
+}
+
+.BtnInfo{
+  margin: 5px;
+  width: 90px;
+  padding: 3px;
+  background: rgb(0, 162, 255);
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: black;
+}
+
+
+.BtnInfo:hover{
+  width: 90px;
+  padding: 3px;
+  background: rgb(0, 111, 175);
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: black;
+}
+
+.BtnFile{
+  margin: 5px;
+  padding: 3px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: black;
+}
