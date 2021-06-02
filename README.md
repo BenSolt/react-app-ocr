@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create React App OCR
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -24,6 +24,7 @@ Open a 2nd terminal
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-## Sample
+## Sample of what App-Ocr does
+ Uploads an image and converts said image to text
 
 ![](images/sampleImage.png)
