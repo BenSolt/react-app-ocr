@@ -5,7 +5,6 @@ import ProgressConvertBar from './ProgressConvertBar';
 import axios from 'axios';
 import Tesseract from 'tesseract.js';
 
-import logo from '../logo.svg';
 
 const FileUpload = () => {
   const [file, setFile] = useState('');

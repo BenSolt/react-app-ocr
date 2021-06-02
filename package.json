@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/BenSolt/react-app-ocr#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "tesseract.js": "^2.1.4"
   }
 }
