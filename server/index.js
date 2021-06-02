@@ -1,5 +1,5 @@
 const fs = require('fs');
-const multer = require('multer')
+// const multer = require('multer')
 const express = require("express");
 const Tesseract = require('tesseract.js')
 
